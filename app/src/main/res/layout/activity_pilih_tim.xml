@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#808080">
+
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="60dp"
+        android:text="PILIH TIM"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#000"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/arema"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bali"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/barito"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bhayangkara"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/persebaya"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/persija"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/persipura"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bali"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/psis"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="BATAL"
+            android:textSize="18dp"
+            android:background="#B20000"
+            android:textColor="#fff"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="15dp"
+            />
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="PILIH"
+            android:textSize="18dp"
+            android:background="#adff2f"
+            android:textColor="#000"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="15dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="50dp"
+        android:text="tiketBola"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#008b8b"/>
+
+    <ImageView
+        android:layout_width="385dp"
+        android:layout_height="150dp"
+        android:src="@drawable/liga"
+        android:layout_marginLeft="-385dp"
+        android:layout_marginTop="50dp" />
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="185dp"
+        android:orientation="horizontal"
+        android:background="#d3d3d3"
+        android:layout_marginLeft="-385dp"
+        android:layout_marginTop="200dp">
+
+        <ImageView
+            android:id="@+id/pesan"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/tiket"
+            android:layout_marginLeft="50dp"
+            android:onClick="pesan"/>
+
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/calendar"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="185dp"
+        android:layout_marginLeft="-385dp"
+        android:layout_marginTop="350dp"
+        android:background="#d3d3d3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/scoreboard" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/daftarstadion" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:layout_marginLeft="-387dp"
+        android:layout_marginTop="500dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_store"
+        android:layout_marginLeft="-325dp"
+        android:layout_marginTop="525dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_gambar_text"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="525dp"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_profil"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="525dp"/>
+
+</LinearLayout>

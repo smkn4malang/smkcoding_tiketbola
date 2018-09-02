@@ -22,9 +22,7 @@
         <activity android:name="com.example.wilda.tatiketbola.PilihJadwalArema" />
         <activity android:name="com.example.wilda.tatiketbola.Daftar" />
         <activity android:name="com.example.wilda.tatiketbola.Login" />
-        <activity
-            android:name="com.example.wilda.tatiketbola.TampilanUtama"
-            android:label="@string/title_activity_tampilan_utama"></activity>
+        <activity android:name="com.example.wilda.tatiketbola.Fragment"></activity>
     </application>
 
 </manifest>

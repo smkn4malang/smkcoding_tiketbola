@@ -24,7 +24,7 @@
         android:ems="10"
         android:textColor="#fff"
         android:inputType="textPersonName"
-        android:text="Nama Depan"
+        android:hint="Nama Depan"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true" />
 
@@ -38,7 +38,7 @@
         android:ems="10"
         android:textColor="#fff"
         android:inputType="textPersonName"
-        android:text="Nama Belakang" />
+        android:hint="Nama Belakang" />
 
     <EditText
         android:id="@+id/editText5"
@@ -49,7 +49,7 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:textColor="#fff"
-        android:text="Email"
+        android:hint="Email"
         android:inputType="textEmailAddress" />
 
     <EditText
@@ -65,7 +65,7 @@
         android:textColorHint="#fff"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/daftar"
         android:layout_width="30dp"
         android:layout_height="40dp"
         android:layout_below="@+id/editText6"
@@ -74,28 +74,7 @@
         android:textColor="#000"
         android:text="DAFTAR"
         android:layout_alignEnd="@+id/editText6"
-        android:layout_alignStart="@+id/editText6" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
-        android:textSize="15dp"
-        android:textColor="#ffffff"
-        android:text="Sudah Mempunyai Akun?"
-        android:layout_below="@+id/button2"
-        android:layout_alignStart="@+id/button2" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="15dp"
-        android:textColor="#ff6700"
-        android:text="LOGIN"
-        android:layout_alignBaseline="@+id/textView3"
-        android:layout_alignBottom="@+id/textView3"
-        android:layout_alignEnd="@+id/button2" />
+        android:layout_alignStart="@+id/editText6"
+        android:onClick="menu"/>
 
 </RelativeLayout>

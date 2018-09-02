@@ -9,7 +9,7 @@
         android:theme="@style/AppTheme">
 
         <!-- suppress AndroidDomInspection -->
-        <activity android:name="com.example.wilda.tatiketbola.MainActivity">
+        <activity android:name="com.example.wilda.tatiketbola.MainMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,6 +20,11 @@
         <activity android:name="com.example.wilda.tatiketbola.Pesanan" />
         <activity android:name="com.example.wilda.tatiketbola.PilihTim" />
         <activity android:name="com.example.wilda.tatiketbola.PilihJadwalArema" />
+        <activity android:name="com.example.wilda.tatiketbola.Daftar" />
+        <activity android:name="com.example.wilda.tatiketbola.Login" />
+        <activity
+            android:name="com.example.wilda.tatiketbola.TampilanUtama"
+            android:label="@string/title_activity_tampilan_utama"></activity>
     </application>
 
 </manifest>

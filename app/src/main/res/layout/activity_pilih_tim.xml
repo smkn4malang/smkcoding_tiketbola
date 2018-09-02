@@ -5,115 +5,210 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#808080">
+    android:background="#808080"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wilda.tatiketbola.PilihTim">
 
     <TextView
-        android:layout_width="385dp"
+        android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="PILIH TIM"
         android:gravity="center"
         android:textSize="30dp"
         android:textColor="#fff"
         android:textStyle="bold"
-        android:background="#000"/>
+        android:background="#234"/>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/arema"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="20dp" />
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/bali"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="20dp" />
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/barito"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="20dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/bhayangkara"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="20dp" />
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/persebaya"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="20dp" />
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/persija"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="20dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/persipura"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="20dp" />
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/bali"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="20dp" />
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/psis"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="20dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <Button
-            android:layout_width="170dp"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BATAL"
-            android:textSize="18dp"
-            android:background="#B20000"
-            android:textColor="#fff"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="15dp"
-            />
-        <Button
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:text="PILIH"
-            android:textSize="18dp"
-            android:background="#adff2f"
-            android:textColor="#000"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="15dp"
-            />
-    </LinearLayout>
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/arema"
+                    android:layout_marginTop="30dp" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/bali"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/barito"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/bhayangkara"
+                    android:layout_marginTop="40dp" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/persebaya"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/persija"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/persipura"
+                    android:layout_marginTop="40dp" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sriwijaya"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/psis"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/madura"
+                    android:layout_marginTop="40dp" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/mitrakukar"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/persela"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/perseru"
+                    android:layout_marginTop="40dp" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/persib"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pstni"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/psm"
+                    android:layout_marginTop="40dp" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/psms"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/borneo"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pilih Jenis Tiket "
+                    android:textSize="15dp"
+                    android:textColor="#fff"/>
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idSpinner"
+                    android:layout_centerHorizontal="true"
+                    android:spinnerMode="dropdown">
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pilih Jumlah Tiket "
+                    android:textSize="15dp"
+                    android:textColor="#fff"/>
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner"
+                    android:layout_centerHorizontal="true"
+                    android:spinnerMode="dialog">
+                </Spinner>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
 
 
 </LinearLayout>

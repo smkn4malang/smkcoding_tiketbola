@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#483d8b"
-    android:orientation="vertical"
-    tools:context=".PilihJadwal">
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="385dp"

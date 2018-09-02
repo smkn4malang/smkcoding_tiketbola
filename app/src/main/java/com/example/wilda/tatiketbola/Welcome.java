@@ -20,7 +20,7 @@ import android.widget.TextView;
 
 import badoystudio.com.introslider.R;
 
-public class WelcomeActivity extends AppCompatActivity {
+public class Welcome extends AppCompatActivity {
 
     private ViewPager viewPager;
     private MyViewPagerAdapter myViewPagerAdapter;
@@ -119,7 +119,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
     private void launchHomeScreen() {
         prefManager.setFirstTimeLaunch(false);
-        startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+        startActivity(new Intent(Welcome.this, MainActivity.class));
         finish();
     }
 

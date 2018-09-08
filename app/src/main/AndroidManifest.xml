@@ -17,12 +17,24 @@
             </intent-filter>
         </activity>
         <!-- suppress AndroidDomInspection -->
-        <activity android:name="com.example.wilda.tatiketbola.Pesanan" />
         <activity android:name="com.example.wilda.tatiketbola.PilihTim" />
         <activity android:name="com.example.wilda.tatiketbola.PilihJadwalArema" />
         <activity android:name="com.example.wilda.tatiketbola.Daftar" />
         <activity android:name="com.example.wilda.tatiketbola.Login" />
-        <activity android:name="com.example.wilda.tatiketbola.Fragment"></activity>
+        <activity android:name="com.example.wilda.tatiketbola.konfirmasi" />
+        <activity android:name="com.example.wilda.tatiketbola.pembayaran" />
+        <activity android:name="com.example.wilda.tatiketbola.profil" />
+        <activity android:name="com.example.wilda.tatiketbola.menuawal" />
+        <activity android:name="com.example.wilda.tatiketbola.jadwal" />
+        <activity android:name="com.example.wilda.tatiketbola.pesanan" />
+        <activity android:name="com.example.wilda.tatiketbola.modelobject" />
+        <activity android:name="com.example.wilda.tatiketbola.CustomPagerAdapter" />
+        <activity android:name="com.example.wilda.tatiketbola.hasil" />
+        <activity android:name="com.example.wilda.tatiketbola.daftar_stadion" />
+        <activity android:name="com.example.wilda.tatiketbola.deskripsi" />
+        <activity android:name="com.example.wilda.tatiketbola.pesan" />
+        <activity android:name="com.example.wilda.tatiketbola.splash_screen" />
+        <activity android:name="com.example.wilda.tatiketbola.bottom_nav"></activity>
     </application>
 
 </manifest>

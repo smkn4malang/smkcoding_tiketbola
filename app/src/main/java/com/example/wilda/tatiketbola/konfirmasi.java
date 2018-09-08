@@ -7,22 +7,20 @@ import android.view.View;
 
 import badoystudio.com.introslider.R;
 
-public class PilihJadwalArema extends AppCompatActivity {
+public class konfirmasi extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pilih_jadwal_arema);
+        setContentView(R.layout.activity_konfirmasi);
     }
 
-    public void mbalik(View view) {
-        Intent intent = new Intent(this, menuawal.class);
+    public void kembali(View view) {
+        Intent intent = new Intent(this, PilihJadwalArema.class);
         startActivity(intent);
-        finish();
     }
-
-    public void pilih(View view) {
-        Intent intent = new Intent(this, konfirmasi.class);
+    public void lanjut(View view) {
+        Intent intent = new Intent(this, pembayaran.class);
         startActivity(intent);
     }
 }

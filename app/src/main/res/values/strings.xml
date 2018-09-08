@@ -5,7 +5,7 @@
     <string name="start">MULAI</string>
 
     <string name="slide_1_title">TIKET</string>
-    <string name="slide_1_desc">Nikmati kemudahan memesan TIket tanpa harus mengatri di loket</string>
+    <string name="slide_1_desc">Nikmati kemudahan memesan Tiket tanpa harus mengatri di loket</string>
 
     <string name="slide_2_title">STADION</string>
     <string name="slide_2_desc">Tersedia untuk semua Stadion yang berada di Indonesia</string>
@@ -19,5 +19,11 @@
     <string name="title_home">Home</string>
     <string name="title_pesanan">Pesanan</string>
     <string name="title_profil">Profil</string>
+    <string name="deskripsi">Tempat</string>
+    <string name="deskripsi2">Kapasitas</string>
+    <string name="deskripsi3">Sejarah</string>
+    <string name="home">Home</string>
+    <string name="pesan">Pesan</string>
+    <string name="profil">Profil</string>
 
 </resources>

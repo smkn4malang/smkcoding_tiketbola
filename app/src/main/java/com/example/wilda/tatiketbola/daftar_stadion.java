@@ -7,30 +7,20 @@ import android.view.View;
 
 import badoystudio.com.introslider.R;
 
-public class Login extends AppCompatActivity {
-
-    SessionManager sessionManager;
+public class daftar_stadion extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-        sessionManager = new SessionManager(getApplicationContext());
+        setContentView(R.layout.activity_daftar_stadion);
     }
 
-    Login(){
-        sessionManager.createSession(logtxtEmail.getText().toString());
-    }
-
-    public void daftar(View view) {
-        Intent intent = new Intent(this, Daftar.class);
+    public void pilihan(View view) {
+        Intent intent = new Intent(this, deskripsi.class);
         startActivity(intent);
-        finish();
     }
-
-    public void login(View view) {
+    public void home(View view) {
         Intent intent = new Intent(this, menuawal.class);
         startActivity(intent);
-        finish();
     }
 }

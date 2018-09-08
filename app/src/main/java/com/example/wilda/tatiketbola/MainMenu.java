@@ -24,7 +24,17 @@ public class MainMenu extends AppCompatActivity {
     }
 
     public void pesan(View view) {
-        Intent intent = new Intent(this, PilihTim.class);
+        Intent intent = new Intent(this, Login.class);
+        startActivity(intent);
+    }
+
+    public void jadwal(View view) {
+        Intent intent = new Intent(this, jadwal.class);
+        startActivity(intent);
+    }
+
+    public void hasil(View view) {
+        Intent intent = new Intent(this, hasil.class);
         startActivity(intent);
     }
 }

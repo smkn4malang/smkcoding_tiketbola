@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark">#002c24</color>
+    <color name="colorSecondaryDark">#01564c</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="color">#c70404</color>
+    <color name="colorPrimary1">#1B5E20</color>
+    <color name="colorPrimaryDark1">#1B5E20</color>
+    <color name="colorAccent1">#00C853</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorNavigationIcon">#dae9f6</color>
+    <color name="colorNavigationText">#ffffff</color>
 
     <!-- Screens background color-->
     <color name="bg_screen1">#800000</color>
     <color name="bg_screen2">#006400</color>
-    <color name="bg_screen3">#008B8B</color>
+    <color name="bg_screen3">#016969</color>
+    <color name="bg_screen4">#533939</color>
+    <color name="bg_screen5">#044d1b</color>
 
     <!-- dots inactive colors -->
     <color name="dot_dark_screen1">#FFFFF0</color>

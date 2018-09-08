@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#808080"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -17,10 +16,10 @@
         android:layout_height="60dp"
         android:text="PILIH TIM"
         android:gravity="center"
-        android:textSize="30dp"
+        android:textSize="35dp"
         android:textColor="#fff"
         android:textStyle="bold"
-        android:background="#234"/>
+        android:background="@color/colorSecondaryDark"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -174,9 +173,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pilih Jenis Tiket "
-                    android:textSize="15dp"
-                    android:textColor="#fff"/>
+                    android:text="JENIS TIKET "
+                    android:textSize="17dp"
+                    android:layout_marginLeft="50dp"/>
                 <Spinner
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -193,9 +192,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pilih Jumlah Tiket "
-                    android:textSize="15dp"
-                    android:textColor="#fff"/>
+                    android:text="JUMLAH TIKET "
+                    android:textSize="17dp"
+                    android:layout_marginLeft="50dp"/>
                 <Spinner
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -204,6 +203,20 @@
                     android:spinnerMode="dialog">
                 </Spinner>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:layout_width="340dp"
+                    android:layout_height="40dp"
+                    android:text="CARI"
+                    android:textSize="20dp"
+                    android:textColor="#fff"
+                    android:background="@color/colorSecondaryDark"
+                    android:onClick="cari"/>
             </LinearLayout>
 
 

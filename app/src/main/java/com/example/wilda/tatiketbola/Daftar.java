@@ -19,8 +19,9 @@ public class Daftar extends AppCompatActivity {
     }
 
     public void menu(View view) {
-        Intent intent = new Intent(this, MainMenu.class);
+        Intent intent = new Intent(this, menuawal.class);
         startActivity(intent);
+        finish();
     }
 
 }

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:background="#558b2f">
+    android:background="#142">
 
     <TextView
         android:id="@+id/textView2"
@@ -23,11 +23,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:ems="10"
-        android:textColor="#fff"
+        android:textColorHint="#fff"
         android:inputType="textPersonName"
         android:hint="Nama Depan"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"/>
 
     <EditText
         android:id="@+id/editText4"
@@ -37,47 +38,71 @@
         android:layout_below="@+id/editText"
         android:layout_marginTop="11dp"
         android:ems="10"
-        android:textColor="#fff"
+        android:textColorHint="#fff"
         android:inputType="textPersonName"
-        android:hint="Nama Belakang" />
+        android:hint="Nama Belakang"
+        android:textColor="#fff"/>
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/editTextEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/editText4"
         android:layout_below="@+id/editText4"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:textColor="#fff"
         android:hint="Email"
-        android:inputType="textEmailAddress" />
+        android:textColorHint="#fff"
+        android:inputType="textEmailAddress"
+        android:textColor="#fff"/>
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/editTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/editText5"
-        android:layout_below="@+id/editText5"
+        android:layout_alignEnd="@+id/editTextEmail"
+        android:layout_below="@+id/editTextEmail"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        android:textColorHint="#fff"/>
+        android:textColorHint="#fff"
+        android:textColor="#fff"/>
 
     <Button
         android:id="@+id/daftar"
         android:layout_width="30dp"
         android:layout_height="40dp"
-        android:layout_below="@+id/editText6"
+        android:layout_below="@+id/editTextPassword"
         android:layout_marginTop="27dp"
-        android:background="#255d00"
+        android:background="#132"
         android:textColor="#fff"
         android:text="DAFTAR"
         android:textSize="17dp"
-        android:layout_alignEnd="@+id/editText6"
-        android:layout_alignStart="@+id/editText6"
+        android:layout_alignEnd="@+id/editTextPassword"
+        android:layout_alignStart="@+id/editTextPassword"
         android:onClick="menu"
         android:textStyle="bold"/>
+
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textviewlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="430dp"
+        android:textColor="#fff"
+        android:text="Already Have Account? LOGIN NOW!"
+        android:onClick="lapo"/>
+
+
 
 </RelativeLayout>

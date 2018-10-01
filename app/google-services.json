@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "769464166964",
+    "firebase_url": "https://loginlorm.firebaseio.com",
+    "project_id": "loginlorm",
+    "storage_bucket": "loginlorm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769464166964:android:6b800a3441bf3a4f",
+        "android_client_info": {
+          "package_name": "com.example.wilda.tatiketbola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769464166964-0lq8sq61du6fkke5knelvg8e794u4i92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wilda.tatiketbola",
+            "certificate_hash": "09590c6d1ca30bd5d0668b17493d491908aea470"
+          }
+        },
+        {
+          "client_id": "769464166964-vh5qsirul4e67nljh273qt5j68fmqopp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqrNf50kB64k2_Jtl2Pz1f_VrjhP-NtNE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769464166964-vh5qsirul4e67nljh273qt5j68fmqopp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

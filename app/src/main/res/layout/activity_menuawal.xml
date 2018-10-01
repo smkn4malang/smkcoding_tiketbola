@@ -18,16 +18,16 @@
 
     <ImageView
         android:layout_width="360dp"
-        android:layout_height="180dp"
+        android:layout_height="170dp"
         android:src="@drawable/liga"
         android:layout_marginLeft="-360dp"
-        android:layout_marginTop="70dp" />
+        android:layout_marginTop="75dp" />
 
     <LinearLayout
         android:layout_width="360dp"
         android:layout_height="155dp"
         android:orientation="horizontal"
-        android:background="#d3d3d3"
+        android:background="@color/backgroundutama"
         android:layout_marginLeft="-360dp"
         android:layout_marginTop="250dp">
 
@@ -56,7 +56,7 @@
         android:layout_height="155dp"
         android:layout_marginLeft="-363dp"
         android:layout_marginTop="400dp"
-        android:background="#d3d3d3"
+        android:background="@color/backgroundutama"
         android:orientation="horizontal">
 
         <ImageView
@@ -78,6 +78,14 @@
     </LinearLayout>
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+    </LinearLayout>
     <ImageView
         android:layout_width="40dp"
         android:layout_height="40dp"

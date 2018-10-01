@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroundutama"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -14,214 +15,17 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="PILIH TIM"
+        android:background="@color/colorSecondaryDark"
         android:gravity="center"
-        android:textSize="35dp"
+        android:text="PILIH TIM"
         android:textColor="#fff"
-        android:textStyle="bold"
-        android:background="@color/colorSecondaryDark"/>
+        android:textSize="35dp"
+        android:textStyle="bold" />
 
-    <ScrollView
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/arema"
-                    android:layout_marginTop="30dp" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/bali"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginLeft="10dp" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/barito"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginLeft="10dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/bhayangkara"
-                    android:layout_marginTop="40dp" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/persebaya"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="10dp" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/persija"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="10dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/persipura"
-                    android:layout_marginTop="40dp" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/sriwijaya"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="10dp" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/psis"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="10dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/madura"
-                    android:layout_marginTop="40dp" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/mitrakukar"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="10dp" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/persela"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="10dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/perseru"
-                    android:layout_marginTop="40dp" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/persib"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="10dp" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/pstni"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="10dp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/psm"
-                    android:layout_marginTop="40dp" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/psms"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="10dp" />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/borneo"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginLeft="10dp" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="30dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="JENIS TIKET "
-                    android:textSize="17dp"
-                    android:layout_marginLeft="50dp"/>
-                <Spinner
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/idSpinner"
-                    android:layout_centerHorizontal="true"
-                    android:spinnerMode="dropdown">
-                </Spinner>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="JUMLAH TIKET "
-                    android:textSize="17dp"
-                    android:layout_marginLeft="50dp"/>
-                <Spinner
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/spinner"
-                    android:layout_centerHorizontal="true"
-                    android:spinnerMode="dialog">
-                </Spinner>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <Button
-                    android:layout_marginTop="20dp"
-                    android:layout_width="340dp"
-                    android:layout_height="40dp"
-                    android:text="CARI"
-                    android:textSize="20dp"
-                    android:textColor="#fff"
-                    android:background="@color/colorSecondaryDark"
-                    android:onClick="cari"/>
-            </LinearLayout>
-
-
-        </LinearLayout>
-    </ScrollView>
-
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
 
 </LinearLayout>

@@ -38,4 +38,9 @@ public class menuawal extends AppCompatActivity {
         Intent intent = new Intent(this, pesan.class);
         startActivity(intent);
     }
+
+    public void jadwal(View view) {
+        Intent intent = new Intent(this, jadwal.class);
+        startActivity(intent);
+    }
 }

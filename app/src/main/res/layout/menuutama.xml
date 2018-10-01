@@ -28,7 +28,7 @@
         android:layout_width="360dp"
         android:layout_height="155dp"
         android:orientation="horizontal"
-        android:background="#d3d3d3"
+        android:background="@color/backgroundutama"
         android:layout_marginLeft="-360dp"
         android:layout_marginTop="250dp">
 
@@ -57,7 +57,7 @@
         android:layout_height="155dp"
         android:layout_marginLeft="-363dp"
         android:layout_marginTop="400dp"
-        android:background="#d3d3d3"
+        android:background="@color/backgroundutama"
         android:orientation="horizontal">
 
         <ImageView
@@ -73,7 +73,8 @@
             android:layout_height="100dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="20dp"
-            android:src="@drawable/daftarstadion" />
+            android:src="@drawable/daftarstadion"
+            android:onClick="stadion"/>
 
     </LinearLayout>
 

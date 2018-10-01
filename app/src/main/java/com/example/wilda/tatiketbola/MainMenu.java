@@ -37,4 +37,9 @@ public class MainMenu extends AppCompatActivity {
         Intent intent = new Intent(this, hasil.class);
         startActivity(intent);
     }
+
+    public void stadion(View view) {
+        Intent intent = new Intent(this, daftar_stadion.class);
+        startActivity(intent);
+    }
 }
